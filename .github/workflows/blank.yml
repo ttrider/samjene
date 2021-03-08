@@ -44,12 +44,12 @@ jobs:
           # The destination bucket region
           bucket-region: us-west-2
           # AWS CloudFront distribution ID
-          #dist-id: # optional
+          dist-id: EEIAQSCKZR5O7
           # AWS CloudFront invalidation path(s)
-          #invalidation: # optional
+          invalidation: /
           # Removes files in S3 that are not available in the local copy of the directory
           #delete-removed: # optional
           # Use this parameter to specify Cache-Control: no-cache, no-store, must-revalidate header
           #no-cache: # optional
           # Upload files with private ACL, needed for S3 static website hosting
-          #private: # optional
+          private: false

@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Zapfino";
+  font-style: normal;
+  font-weight: 400;
+  src: url("img/Zapfino Forte LT W01.ttf");
+}
+
+/* @font-face {
+  font-family: "Zapfino";
+  font-style: normal;
+  font-weight: 700;
+  src: url(img/ZapfinoForteLTPro.otf);
+}
+
+@font-face {
+  font-family: "Zapfino";
+  font-style: italic;
+  font-weight: 400;
+  src: url(img/ZapfinoForteLTPro.otf);
+}
+
+@font-face {
+  font-family: "Zapfino";
+  font-style: italic;
+  font-weight: 700;
+  src: url(img/ZapfinoForteLTPro.otf);
+} */
+
+body {
+  margin: 0;
+  /*background-image: url("/img/header.png");
+  background-position: center;
+  background-attachment: fixed;*/
+  background: #f5f6e0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8em;
+  box-shadow: #5b5c09 0 1rem 5rem;
+  background-image: url("/img/header.png");
+  background-position: center;
+  z-index: 20;
+}
+
+.title {
+  font-family: Zapfino;
+  font-size: 12em;
+  text-shadow: 0 0 10px #ffe180;
+  position: absolute;
+  top: -3rem;
+  left: 2rem;
+}
+
+.main {
+  margin-top: 11em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2em;
+  padding: 0.8em;  
+  height: 300em;
+  background: #f6f6ee;
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 1px solid #5b5c09;
+    box-shadow: #5b5c09 0 0rem 0.5rem;
+    border-radius: 1em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .main {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .main {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}

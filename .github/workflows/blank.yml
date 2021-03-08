@@ -38,7 +38,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
         with:
           # Directory to deploy
-          folder: /
+          folder: ./
           # Name of AWS Bucket
           bucket: samjene
           # The destination bucket region

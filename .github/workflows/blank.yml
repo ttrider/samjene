@@ -46,7 +46,7 @@ jobs:
           # AWS CloudFront distribution ID
           dist-id: EEIAQSCKZR5O7
           # AWS CloudFront invalidation path(s)
-          invalidation: /
+          invalidation: /*
           # Removes files in S3 that are not available in the local copy of the directory
           #delete-removed: # optional
           # Use this parameter to specify Cache-Control: no-cache, no-store, must-revalidate header
